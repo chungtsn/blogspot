@@ -4878,7 +4878,7 @@ var LadiFormApi = LadiFormApi || {},
     (LadiPageLibraryV2.prototype.submit = function () {
         var t = document.getElementById(this.id);
         if (!LadiPageScript.isEmpty(t)) {
-            var e = t.querySelector('.ladi-form button[type="submit"]');
+            var e = t.querySelector('.ladi-form button[type="submit1"]');
             LadiPageScript.isEmpty(e) || e.click();
         }
     }),
