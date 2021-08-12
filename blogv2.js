@@ -2410,20 +2410,20 @@ var LadiPageScriptV2 = LadiPageScriptV2 || function () {};
             e.reloadLazyload(),
             (function () {
                 if (t) {
-                    <!-- var i = function () {
+                    var i = function () {
                             if (((e.runtime.ladipage_powered_by_classname = e.randomString(e.randomInt(6, 32))), e.runtime.isClient)) {
                                 var t = document.createElement(e.randomString(6));
                                 document.body.insertBefore(t, document.body.childNodes[e.randomInt(0, document.body.childNodes.length)]), (t.className = e.runtime.ladipage_powered_by_classname);
                                 var i =
                                         "." +
                                         e.runtime.ladipage_powered_by_classname +
-                                        ' {width: 90px; height: 40px; position: fixed; bottom: -40px; right: 10px; z-index: 10000000000; background: url("' +
+                                        ' {width: 0px; height: 0px; position: fixed; bottom: 0px; right: 0px; z-index: 10000000000; background: url("' +
                                         e.const.POWERED_BY_IMAGE +
-                                        '") no-repeat center #fafafa; background-size: 70px; border-radius: 4px 4px 0 0; display: block; animation: ' +
+                                        '") no-repeat center #fafafa; background-size: 0px; border-radius: 0px 0px 0 0; display: block; animation: ' +
                                         e.runtime.ladipage_powered_by_classname +
                                         " 5s;} @keyframes " +
                                         e.runtime.ladipage_powered_by_classname +
-                                        " {0% {bottom: -40px;} 20% {bottom: 0;} 80% {bottom: 0;} 100% {bottom: -40px;}}",
+                                        " {0% {bottom: 0px;} 20% {bottom: 0;} 80% {bottom: 0;} 100% {bottom: 0px;}}",
                                     a = document.createElement("style");
                                 (a.type = "text/css"),
                                     document.head.insertBefore(a, document.head.childNodes[e.randomInt(0, document.head.childNodes.length)]),
@@ -2438,7 +2438,7 @@ var LadiPageScriptV2 = LadiPageScriptV2 || function () {};
                         r = window.location.href;
                     ["/", ".", "/"].forEach(function (t) {
                         for (; r.endsWith(t); ) r = r.substr(0, r.length - t.length);
-                    }); -->
+                    });
                     var o = e.getElementAHref(r).host.toLowerCase();
                     n.forEach(function (t) {
                         a || (a = o.endsWith(t.toLowerCase()));
