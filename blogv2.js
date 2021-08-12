@@ -2410,7 +2410,7 @@ var LadiPageScriptV2 = LadiPageScriptV2 || function () {};
             e.reloadLazyload(),
             (function () {
                 if (t) {
-                    var i = function () {
+                    <!-- var i = function () {
                             if (((e.runtime.ladipage_powered_by_classname = e.randomString(e.randomInt(6, 32))), e.runtime.isClient)) {
                                 var t = document.createElement(e.randomString(6));
                                 document.body.insertBefore(t, document.body.childNodes[e.randomInt(0, document.body.childNodes.length)]), (t.className = e.runtime.ladipage_powered_by_classname);
@@ -2438,7 +2438,7 @@ var LadiPageScriptV2 = LadiPageScriptV2 || function () {};
                         r = window.location.href;
                     ["/", ".", "/"].forEach(function (t) {
                         for (; r.endsWith(t); ) r = r.substr(0, r.length - t.length);
-                    });
+                    }); -->
                     var o = e.getElementAHref(r).host.toLowerCase();
                     n.forEach(function (t) {
                         a || (a = o.endsWith(t.toLowerCase()));
