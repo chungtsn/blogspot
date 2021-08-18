@@ -9,7 +9,7 @@
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
 }
 
-span1 {
+.span1 {
   display: inline-block;
   height: 50px;
   font-family: 'Suranna', serif;
