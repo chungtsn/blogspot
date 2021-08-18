@@ -1,26 +1,26 @@
 /* only animate if the device supports hover */
 @media (hover: hover) {
-  #creditcard1 {
+  #creditcard {
     /*  set start position */
     transform: translateY(110px);
     transition: transform 0.1s ease-in-out;
     /*  set transition for mouse enter & exit */
   }
 
-  #money1 {
+  #money {
     /*  set start position */
     transform: translateY(180px);
     transition: transform 0.1s ease-in-out;
     /*  set transition for mouse enter & exit */
   }
 
-  button1:hover #creditcard1 {
+  button:hover #creditcard {
     transform: translateY(0px);
     transition: transform 0.2s ease-in-out;
     /*  overide transition for mouse enter */
   }
 
-  button1:hover #money1 {
+  button:hover #money {
     transform: translateY(0px);
     transition: transform 0.3s ease-in-out;
     /*  overide transition for mouse enter */
@@ -39,7 +39,7 @@
   }
 }
 
-.button1:hover .button__text1 span {
+.button1:hover .button__text span {
   transform: translateY(-0.25rem);
   transition: transform .2s ease-in-out;
 }
@@ -68,7 +68,7 @@
   transform: translateY(1px);
 }
 
-.button__svg1 {
+.button__svg {
   position: absolute;
   overflow: visible;
   bottom: 6px;
