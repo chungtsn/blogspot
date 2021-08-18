@@ -68,7 +68,7 @@ span2 {
   letter-spacing: 0.2em;
 }
 
-.product-text1 p {
+.product-text1 p1 {
   height: 125px;
   margin: 0 0 0 38px;
   font-family: 'Playfair Display', serif;
@@ -86,7 +86,7 @@ span2 {
   position: relative;
 }
 
-.product-price-btn1 p {
+.product-price-btn1 p1 {
   display: inline-block;
   position: absolute;
   top: -13px;
