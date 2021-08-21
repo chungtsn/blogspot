@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+html, body
+{
+  margin: 0;
+  background: linear-gradient(100.4deg, rgba(158, 199, 234, 0.5) 0%, rgba(226, 172, 202, 0.5) 100%);
+  font-family: 'Nunito', sans-serif;
+}
+
+button
+{
+  margin: 1%;
+  min-width: 125px;
+  min-height: 40px;
+  background: #E2ACCA;
+  border-style: none;
+  border-radius: 10px;
+}
+
+textarea
+{
+  width: 80vw;
+  resize: none;
+  height: 150px;
+  display: block;
+}
+
+textarea, input
+{  
+  border-radius: 10px;
+  border-style: none;
+  margin: 1%
+}
+
+.secret, .encode, .decode
+{
+  display: inline-block;
+  margin: 2%;
+}
+
+#canvas
+{
+  margin: 3rem auto;
+  width: min-content;
+}
+
+#copyClip
+{
+  
+}
+
+#menu-nav {
+  margin: 0 auto;
+  background-color: #ecf0f1;
+  border-radius: 4px;
+}
+ 
+#navigation-bar ul {
+  border-radius: 4px;
+  overflow: hidden;
+}
+#navigation-bar li {
+  margin: 0 auto;
+  display: inline-block;
+  width: 20%;
+}
+#navigation-bar a {
+  color: #E2ACCA;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 0;
+  display: block;
+  position: relative;
+  transition: all 0.3s ease;
+}
+#navigation-bar a:hover {
+  color: #9EC7EA;
+}
+#navigation-bar a::before {
+  content: "";
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background-color: #9EC7EA;
+}
+#navigation-bar a:hover::before {
+  right: 0;
+  left: 0;
+}
+ 
+li {
+	list-style: none;
+}
