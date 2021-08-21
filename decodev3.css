@@ -30,8 +30,8 @@ textarea
 textarea, input
 {  
   border-radius: 10px;
-  border-style: none;
-  margin: 1%
+  border-style: solid;
+  margin: 1px
 }
 
 .secret, .encode, .decode
