@@ -12,13 +12,13 @@
     background: whitesmoke;
     left: 50%;
     margin-bottom: 40px;
-    width: 80%;
+    width: 85%;
     padding: 15px;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 5px;
     box-shadow: inset 1px 1px 0 white;
     height: 100%;
-    transform: translate(40px, 10px);
+    transform: translate(10px, 10px);
 }
 
 .ul2 {
