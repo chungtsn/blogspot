@@ -1,0 +1,130 @@
+		.file {
+			width: 33%;
+			position: absolute;
+			top: 40%;
+			left: 50%;
+			transform: translate(-50%,-50%);
+			box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+		}
+		.file .title {
+			background: #252525;
+			border-radius: 5px 5px 0px 0px;
+			padding: 1rem;
+			display: block;
+			width: 100%;
+			color: white;
+			font-weight: bold;
+			box-sizing: border-box;
+			
+			border: 1px solid #333;
+		}
+		.file .detail {
+			box-sizing: border-box;
+			background: white;
+			width: 100%;
+			border: block;
+			padding: 1rem;
+			border: 1px solid #ccc;
+		}
+
+		.btn {
+			display: block;
+			background: #4caf50;
+			box-sizing: border-box;
+			width: 50%;
+			margin: auto;
+			text-align: center;
+			padding: 1rem;
+			color: white;
+			font-weight: bold;
+			text-decoration: none;
+			border-radius: 5px;
+			transition: all 0.1s ease-out;
+		}
+		.btn:hover {
+			background: #57bf5b;
+			transform: scale(1.05);
+		}
+		.brand {
+			position: absolute;
+			right: 1rem;
+			bottom: 1rem;
+			color: white;
+		}
+		.brand a {
+			color: white;
+			text-decoration: none;
+			font-weight: bold;
+		}
+		.brand a:hover {
+			text-decoration: underline;
+		}
+
+		.progress-bar {
+			width: 95%;
+			height: 2rem;
+			background: #d2d2d2;
+			margin: auto;
+			display: block;
+			animation: showProgressBar 1s ease-in-out;
+		}
+		.progress {
+			background: #b5b5b5;
+			width: 2rem;
+			height: 2rem;
+			animation: showProgress 1s linear, progress 1.5s ease-in-out 1s infinite alternate;
+		}
+
+		@keyframes progress {
+			0%,10% {
+				margin-left: 0;
+				width: 2rem;
+				height: 2rem;
+				transform: translateY(0px);
+			}
+			50% {
+				width: 20%;
+				height: 1rem;
+				transform: translateY(0.5rem);
+			}
+			90%,100% {
+				margin-left: calc(100% - 2rem);
+				width: 2rem;
+				height: 2rem;
+				transform: translateY(0px);
+			}
+		}
+
+		@keyframes showProgress {
+			0%, 50% {
+				opacity: 0;
+			}
+			100% {
+				opacity: 1;
+			}
+		}
+
+		@keyframes showProgressBar {
+			0% {
+				width: 50%;
+				height: 0px;
+				overflow: hidden;
+			}
+			45%,55% {
+				width: 50%;
+				height: 2rem;
+			}
+			100% {
+				width: 95%;
+			}
+		}
+
+		.progress-bar.hidden {
+			display: none;
+		}
+		.btn.hidden {
+			overflow: hidden;
+			height: 0px;
+			padding-top: 0px;
+			padding-bottom: 0px;
+		}
