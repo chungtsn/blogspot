@@ -1,11 +1,11 @@
-		.file {
-			width: 33%;
-			position: absolute;
-			top: 40%;
-			left: 50%;
-			transform: translate(-50%,-50%);
-			box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-		}
+.file {
+    width: 70%;
+    top: 5px;
+    left: 5px;
+    transform: translate(20%, 10px);
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+    margin-bottom: 30px;
+}
 		.file .title {
 			background: #252525;
 			border-radius: 5px 5px 0px 0px;
