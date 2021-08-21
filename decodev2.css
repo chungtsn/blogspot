@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+html, body
+{
+  margin: 0;
+  background: linear-gradient(100.4deg, rgba(158, 199, 234, 0.5) 0%, rgba(226, 172, 202, 0.5) 100%);
+  font-family: 'Nunito', sans-serif;
+}
+
+button
+{
+  margin: 1%;
+  min-width: 125px;
+  min-height: 40px;
+  background: #E2ACCA;
+  border-style: none;
+  border-radius: 10px;
+}
+
+textarea
+{
+  width: 50vw;
+  resize: none;
+  height: 150px;
+  border-style: solid;
+  display: block;
+  background: #ffa50029;
+}
+
+textarea, input
+{  
+  border-radius: 10px;
+  border-style: none;
+  margin: 1%
+}
+
+.secret, .encode, .decode
+{
+  display: inline-block;
+  margin: 2%;
+}
+
+#canvas
+{
+  margin: 3rem auto;
+  width: min-content;
+}
+
+#copyClip
+{
+  
+}
+
+li {
+	list-style: none;
+}
